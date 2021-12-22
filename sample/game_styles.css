@@ -1,0 +1,35 @@
+.info-bar{
+    -fx-background-color: rgb(65, 67, 69);
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 5, 0, 0, 2);
+
+}
+
+.scroll-pane > .viewport {
+    -fx-background-image: url("../pics/backGround.jpg");
+    -fx-background-repeat: repeat;
+}
+
+.label{
+    -fx-font-size: 20;
+    -fx-font-style: oblique;
+    -fx-text-fill: #86babc;
+
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+}
+
+.menu-button {
+    -fx-font-size: 18;
+    -fx-font-family: "sans-serif";
+
+    -fx-font-style: oblique;
+    -fx-text-fill: #860500;
+
+    -fx-background-radius: 100;
+    -fx-background-color: rgba(70, 156, 220, 0.15);
+
+    -fx-border-radius: 50%;
+    -fx-border-width: 2;
+    -fx-border-color: rgba(54, 138, 220, 0.34);
+
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+}

@@ -1,0 +1,108 @@
+.menu-bg {
+    -fx-background-image: url("../pics/bomberman.PNG");
+    -fx-background-size: cover;
+}
+
+
+.menu-button {
+    -fx-font-size: 34;
+    -fx-font-family: "Snap ITC";
+
+    -fx-font-style: oblique;
+    -fx-text-fill: #860500;
+
+    -fx-background-radius: 100;
+    -fx-background-color: rgba(70, 156, 220, 0.15);
+
+    -fx-border-radius: 50%;
+    -fx-border-width: 2;
+    -fx-border-color: rgba(54, 138, 220, 0.34);
+
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+}
+.menu-button:hover{
+    -fx-background-color: rgba(255, 222, 0, 0.65);
+}
+
+.menu-button1 {
+    -fx-font-size: 18;
+    -fx-font-family: "sans-serif";
+
+    -fx-font-style: oblique;
+    -fx-text-fill: #860500;
+
+    -fx-background-radius: 100;
+    -fx-background-color: rgba(70, 156, 220, 0.15);
+
+    -fx-border-radius: 50%;
+    -fx-border-width: 2;
+    -fx-border-color: rgba(54, 138, 220, 0.34);
+
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+}
+
+
+
+#playersImageview {
+
+    -fx-border-style: solid;
+    -fx-border-color: firebrick;
+    -fx-border-radius: 5;
+    -fx-padding: 10;
+    -fx-background-color: firebrick;
+    -fx-background-radius: 5;
+
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+
+}
+
+#imgNext{
+
+    -fx-font-style: oblique;
+    -fx-text-fill: #860500;
+
+    -fx-background-radius: 100;
+    -fx-background-color: rgba(70, 156, 220, 0.15);
+
+    -fx-start-margin: 10;
+    -fx-end-margin: 10;
+
+    -fx-border-radius: 50%;
+    -fx-border-width: 2;
+    -fx-border-color: rgba(54, 138, 220, 0.34);
+
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+}
+
+#imgPrev{
+    -fx-font-style: oblique;
+    -fx-text-fill: #860500;
+
+    -fx-start-margin: 10;
+    -fx-end-margin: 10;
+
+    -fx-background-radius: 100;
+    -fx-background-color: rgba(70, 156, 220, 0.15);
+
+    -fx-border-radius: 50%;
+    -fx-border-width: 2;
+    -fx-border-color: rgba(54, 138, 220, 0.34);
+
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+}
+
+#leftBox{
+    -fx-start-margin: 5;
+    -fx-end-margin: 5;
+    -fx-hgap: 5;
+    -fx-alignment: "CENTER_LEFT";
+}
+
+#rightBox{
+    -fx-start-margin: 5;
+    -fx-end-margin: 5;
+    -fx-hgap: 5;
+    -fx-alignment: "CENTER_RIGHT";
+}
+
+
